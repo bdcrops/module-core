@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @category BDCrops
+* @package BDC\Core
+* @author Abdul Matin <matinict@gmail.com / info@bdcrops.com >
+* @copyright Copyright (c) 2018 BDCrops, Ltd (http://www.bdcrops.com)
+* @license http://opensource.org/licenses/afl-3.0.php Academic Free License (AFL 3.0)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::all" title="Allow everything" sortOrder="11" />
+            <resource id="Magento_Backend::admin" title="Magento Admin" sortOrder="21">
+                <resource id="BDC_Core::all" title="BDCrops" sortOrder="1" />
+            </resource>
+        </resources>
+    </acl>
+</config>

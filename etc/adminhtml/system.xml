@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @category BDCrops
+* @package BDC\Core
+* @author Abdul Matin <matinict@gmail.com / info@bdcrops.com >
+* @copyright Copyright (c) 2018 BDCrops, Ltd (http://www.bdcrops.com)
+* @license http://opensource.org/licenses/afl-3.0.php Academic Free License (AFL 3.0)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+      <tab id="bdcrops" translate="label" sortOrder="101" class="bdcrops">
+           <label><![CDATA[<span class="bdc-logo"> BDCrops Inc.</span>]]></label>
+       </tab>
+
+       <section id="bdcrops" translate="label" type="text" sortOrder="44" showInDefault="1" showInWebsite="0" showInStore="0">
+            <label>Configuration</label>
+            <tab>bdcrops</tab>
+            <resource>BDC_Core::configuration</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>General Configuration</label>
+                <field id="enable" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Enable </label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>Select Yes to get active BDCrops Core </comment>
+                </field>
+
+            </group>
+        </section>
+    </system>
+</config>

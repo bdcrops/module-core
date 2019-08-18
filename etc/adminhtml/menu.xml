@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @category BDCrops
+* @package BDC\Core
+* @author Abdul Matin <matinict@gmail.com / info@bdcrops.com >
+* @copyright Copyright (c) 2018 BDCrops, Ltd (http://www.bdcrops.com)
+* @license http://opensource.org/licenses/afl-3.0.php Academic Free License (AFL 3.0)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="BDC_Core::all" title="BDCrops" module="BDC_Core" sortOrder="61" resource="BDC_Core::all" />
+        <add id="BDC_Core::configuration" title="Configuration" translate="title" module="BDC_Core" sortOrder="10" parent="BDC_Core::all" action="adminhtml/system_config/edit/section/bdcrops" resource="BDC_Core::configuration"/>
+
+        <!-- <add id="BDC_Core::marketplace" title="BDCrops Marketplace" module="BDC_Core" sortOrder="10" resource="BDC_Core::marketplace" parent="BDC_Core::documentation"/>
+        <add id="BDC_Core::userguide" title="User Guides" module="BDC_Core" sortOrder="20" resource="BDC_Core::userguide" parent="BDC_Core::documentation"/> -->
+
+
+    </menu>
+
+</config>

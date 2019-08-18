@@ -1,0 +1,15 @@
+.admin__menu #menu-bdc-core-all.level-0 > a:before {
+     content:url('../images/bc.png')
+}
+.admin__menu #menu-bdc-core-all .submenu-title{
+    font-size: 2.0rem;
+}
+.admin__menu .submenu .item-bdc-slider .parent .submenu-group-title {
+    display: block!important;
+}
+.bdc-logo {
+	background-image: url('../images/bc.svg');
+	background-size: auto 20px;
+	background-repeat: no-repeat;
+	padding-left: 25px;
+}

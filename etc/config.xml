@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @category BDCrops
+* @package BDC\Core
+* @author Abdul Matin <matinict@gmail.com / info@bdcrops.com >
+* @copyright Copyright (c) 2018 BDCrops, Ltd (http://www.bdcrops.com)
+* @license http://opensource.org/licenses/afl-3.0.php Academic Free License (AFL 3.0)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <bdc>
+            <general>
+                <enable>1</enable>
+                <notice_type>announcement,new_update,marketing</notice_type>
+                <menu>0</menu>
+            </general>
+        </bdc>
+    </default>
+</config>
