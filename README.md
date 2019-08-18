@@ -46,7 +46,7 @@ php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
 
-#### 2.2 Upgrade
+#### 2.2 Upgrade    
 
 ```
 composer update bdcrops/module-core
